@@ -27,5 +27,6 @@ export default {
   padding: 0;
   text-align: center;
   background-color: #FFFFE0;
+  font-family: Century Gothic, sans-serif;
 }
 </style>

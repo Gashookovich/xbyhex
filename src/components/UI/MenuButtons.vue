@@ -15,8 +15,8 @@ export default {
   background-color: black;
   color: #ffffff;
   width: 9%;
-  font-size: 15px;
   cursor: pointer;
+  font-size: 60%;
 }
 .btn:hover {
   color: #7a0202;

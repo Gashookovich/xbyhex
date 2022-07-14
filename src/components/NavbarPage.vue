@@ -9,7 +9,6 @@
       <menu-buttons>прайс</menu-buttons>
       <menu-buttons class="navbar__btns-contact">контакты</menu-buttons>
     </div>
-
   </div>
 </template>
 
@@ -32,7 +31,7 @@ export default {
   display: flex;
   align-items: center;
   padding: 0 15px;
-  font-family: Georgia, serif;
+  font-family: Century Gothic, sans-serif;
   font-size: 25px;
   color: #ffffff;
 }
@@ -40,13 +39,14 @@ export default {
   height: 60px;
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
+  align-items: center;
 }
 .navbar__btns-contact {
   background-color: #ffffff;
-  color: black; height: 70%;
+  color: black;
+  height: 70%;
   border-radius: 30px;
-  margin-top: 8px;
 }
 .navbar__btns-contact:hover {
   background-color: #7a0202;
