@@ -8,7 +8,7 @@
         помогаю людям жить свою лучшую жизнь <br> прямо <strong>«здесь и сейчас»</strong></div>
       <button class="btn">
         <a
-          href="https://t.me/Vadim_Arzhanov"
+          href="https://drive.google.com/drive/folders/1ZmBXMDyTZpAYdDEAOk7izfhxNhgirJCU?usp=sharing"
           style="color: black; text-decoration: none;"
           target="_blank"
         >
