@@ -24,7 +24,7 @@ export default {
 }
 .app {
   width: 100%;
-  padding: 20px;
+  padding: 0;
   text-align: center;
   background-color: #FFFFE0;
 }
