@@ -1,0 +1,31 @@
+<template>
+  <navbar-page></navbar-page>
+  <div class="app">
+    <router-view></router-view>
+  </div>
+</template>
+
+<script>
+import NavbarPage from "@/components/NavbarPage";
+
+export default {
+  name: 'App',
+  components: {
+    NavbarPage,
+  }
+}
+</script>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  background-color: #FFFFE0;
+}
+</style>
