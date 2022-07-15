@@ -16,18 +16,22 @@
         </a>
       </button>
     </div>
-
     <div class="main-page__head2">
       <img :src="image" />
     </div>
   </div>
+  <working-component />
 </template>
 
 <script>
 import image from "@/img/header.png";
+import WorkingComponent from "@/components/WorkingComponent";
 
 export default {
   name: 'main-page',
+  components: {
+    WorkingComponent,
+  },
   data() {
     return {
       image: image,
@@ -43,6 +47,7 @@ export default {
   flex-direction: row;
   justify-content: space-between;
   background-color: black;
+  padding: 20px 0;
 }
 .main-page__head1 {
   width: 45%;

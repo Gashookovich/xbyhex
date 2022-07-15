@@ -3,11 +3,12 @@
     <div>xbyhex</div>
     <div class="navbar__btns">
       <menu-buttons>обо мне</menu-buttons>
-      <menu-buttons>с чем работаю</menu-buttons>
+      <menu-buttons @click="$router.push('/working')">с чем работаю</menu-buttons>
       <menu-buttons>образование</menu-buttons>
       <menu-buttons>связь со мной</menu-buttons>
       <menu-buttons>прайс</menu-buttons>
       <menu-buttons class="navbar__btns-contact">контакты</menu-buttons>
+      <menu-buttons @click="$router.push('/')">главная</menu-buttons>
     </div>
   </div>
 </template>

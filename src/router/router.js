@@ -1,10 +1,15 @@
 import MainPage from "@/pages/MainPage";
 import {createRouter, createWebHistory} from "vue-router";
+import WorkingComponent from "@/components/WorkingComponent";
 
 const routes = [
     {
         path: '/',
         component: MainPage
+    },
+    {
+        path: '/working',
+        component: WorkingComponent
     },
 ]
 
