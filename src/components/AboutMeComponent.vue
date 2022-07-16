@@ -127,5 +127,6 @@ h1 {
 }
 .about-me__right-footer-end {
   padding-top: 50px;
+  line-height: 1.5;
 }
 </style>
