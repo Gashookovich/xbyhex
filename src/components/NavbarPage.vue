@@ -2,7 +2,7 @@
   <div class="navbar">
     <div>xbyhex</div>
     <div class="navbar__btns">
-      <menu-buttons>обо мне</menu-buttons>
+      <menu-buttons @click="$router.push('/about')">обо мне</menu-buttons>
       <menu-buttons @click="$router.push('/working')">с чем работаю</menu-buttons>
       <menu-buttons>образование</menu-buttons>
       <menu-buttons>связь со мной</menu-buttons>

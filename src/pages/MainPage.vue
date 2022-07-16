@@ -21,16 +21,19 @@
     </div>
   </div>
   <working-component />
+  <AboutMeComponent />
 </template>
 
 <script>
 import image from "@/img/header.png";
 import WorkingComponent from "@/components/WorkingComponent";
+import AboutMeComponent from "@/components/AboutMeComponent";
 
 export default {
   name: 'main-page',
   components: {
     WorkingComponent,
+    AboutMeComponent,
   },
   data() {
     return {
