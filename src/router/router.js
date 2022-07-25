@@ -2,6 +2,7 @@ import MainPage from "@/pages/MainPage";
 import {createRouter, createWebHistory} from "vue-router";
 import WorkingComponent from "@/components/WorkingComponent";
 import AboutMeComponent from "@/components/AboutMeComponent";
+import AducationComponent from "@/components/AducationComponent";
 
 const routes = [
     {
@@ -15,6 +16,10 @@ const routes = [
     {
         path: '/about',
         component: AboutMeComponent
+    },
+    {
+        path: '/aducation',
+        component: AducationComponent
     },
 ]
 
