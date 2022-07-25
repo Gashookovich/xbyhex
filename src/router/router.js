@@ -3,6 +3,7 @@ import {createRouter, createWebHistory} from "vue-router";
 import WorkingComponent from "@/components/WorkingComponent";
 import AboutMeComponent from "@/components/AboutMeComponent";
 import AducationComponent from "@/components/AducationComponent";
+import PoliticPage from "@/pages/PoliticPage";
 
 const routes = [
     {
@@ -20,6 +21,10 @@ const routes = [
     {
         path: '/aducation',
         component: AducationComponent
+    },
+    {
+        path: '/politic',
+        component: PoliticPage
     },
 ]
 

@@ -3,14 +3,17 @@
   <div class="app">
     <router-view></router-view>
   </div>
+  <footer-page></footer-page>
 </template>
 
 <script>
 import NavbarPage from "@/components/NavbarPage";
+import FooterPage from "@/components/FooterPage";
 
 export default {
   name: 'App',
   components: {
+    FooterPage,
     NavbarPage,
   }
 }

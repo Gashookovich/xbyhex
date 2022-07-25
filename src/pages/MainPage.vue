@@ -23,6 +23,9 @@
   <working-component />
   <AboutMeComponent />
   <AducationComponent />
+  <TaglineComponent />
+  <AddressComponent />
+  <ReceptionComponent />
 </template>
 
 <script>
@@ -30,10 +33,16 @@ import image from "@/img/header.png";
 import WorkingComponent from "@/components/WorkingComponent";
 import AboutMeComponent from "@/components/AboutMeComponent";
 import AducationComponent from "@/components/AducationComponent";
+import TaglineComponent from "@/components/TaglineComponent";
+import AddressComponent from "@/components/AddressComponent";
+import ReceptionComponent from "@/components/ReceptionComponent";
 
 export default {
   name: 'main-page',
   components: {
+    ReceptionComponent,
+    AddressComponent,
+    TaglineComponent,
     WorkingComponent,
     AboutMeComponent,
     AducationComponent,
