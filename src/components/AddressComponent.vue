@@ -18,23 +18,34 @@ export default {
 </script>
 
 <style scoped>
-.address {
-  width: 100%;
-  background-color: white;
-  padding: 20px 15px;
-  font-family: Century Gothic, sans-serif;
+@media screen and (max-width: 1440px) and (min-width: 960px) {
+  .address {
+    width: 100%;
+    background-color: white;
+    padding: 20px 15px;
+    font-family: Century Gothic, sans-serif;
+  }
+  .address__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2;
+    font-size: 15px;
+  }
+  .address__content-header {
+    opacity: 0.6;
+  }
+  .address__content-footer {
+    font-weight: bold;
+  }
 }
-.address__content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  line-height: 2;
-  font-size: 15px;
+@media screen and (max-width: 960px) and (min-width: 640px) {
+
 }
-.address__content-header {
-  opacity: 0.6;
+@media screen and (max-width: 640px) and (min-width: 480px) {
+
 }
-.address__content-footer {
-  font-weight: bold;
+@media screen and (max-width: 480px) and (min-width: 320px) {
+
 }
 </style>

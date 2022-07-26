@@ -13,25 +13,36 @@ export default {
 </script>
 
 <style scoped>
-.tagline {
-  background-color: #f5eded;
-  padding: 20px 20px;
-  width: 100%;
-  font-family: Century Gothic, sans-serif;
-  line-height: 2;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+@media screen and (max-width: 1440px) and (min-width: 960px) {
+  .tagline {
+    background-color: #f5eded;
+    padding: 20px 20px;
+    width: 100%;
+    font-family: Century Gothic, sans-serif;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tagline__line {
+    width: 10%;
+    border-bottom: 1px solid black;
+  }
+  .tagline__text {
+    width: 60%;
+    font-size: 35px;
+    font-weight: lighter;
+    padding-bottom: 50px;
+    padding-top: 45px;
+  }
 }
-.tagline__line {
-  width: 10%;
-  border-bottom: 1px solid black;
+@media screen and (max-width: 960px) and (min-width: 640px) {
+
 }
-.tagline__text {
-  width: 60%;
-  font-size: 35px;
-  font-weight: lighter;
-  padding-bottom: 50px;
-  padding-top: 45px;
+@media screen and (max-width: 640px) and (min-width: 480px) {
+
+}
+@media screen and (max-width: 480px) and (min-width: 320px) {
+
 }
 </style>

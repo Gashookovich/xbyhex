@@ -238,25 +238,36 @@ export default {
 </script>
 
 <style scoped>
-.politic {
-  background-color: #f5eded;
-  font-family: Century Gothic, sans-serif;
-  width: 100%;
-  padding: 20px 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  line-height: 2;
+@media screen and (max-width: 1440px) and (min-width: 960px) {
+  .politic {
+    background-color: #f5eded;
+    font-family: Century Gothic, sans-serif;
+    width: 100%;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2;
+  }
+  .politic__content {
+    width: 70%;
+  }
+  .politic__content-text {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+    font-weight: bold;
+  }
 }
-.politic__content {
-  width: 70%;
+@media screen and (max-width: 960px) and (min-width: 640px) {
+
 }
-.politic__content-text {
-  width: 70%;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  text-align: left;
-  font-weight: bold;
+@media screen and (max-width: 640px) and (min-width: 480px) {
+
+}
+@media screen and (max-width: 480px) and (min-width: 320px) {
+
 }
 </style>

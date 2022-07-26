@@ -19,24 +19,34 @@ export default {
 </script>
 
 <style scoped>
-.about-me__btn {
-  height: 60px;
-  margin: 50px 0;
-  border-radius: 30px;
-  font-size: 16px;
-  background-color: black;
-  color: #ffffff;
-  cursor: pointer;
+@media screen and (max-width: 1440px) and (min-width: 960px) {
+  .about-me__btn {
+    height: 60px;
+    margin: 50px 0;
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: black;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .about-me__btn:hover {
+    background-color: #ffffff;
+  }
+  .about-me__btn-a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .about-me__btn-a:hover {
+    color: black;
+  }
 }
-.about-me__btn:hover {
-  background-color: #ffffff;
+@media screen and (max-width: 960px) and (min-width: 640px) {
+
 }
-.about-me__btn-a {
-  color: #ffffff;
-  text-decoration: none;
+@media screen and (max-width: 640px) and (min-width: 480px) {
+
 }
-.about-me__btn-a:hover {
-  color: black;
+@media screen and (max-width: 480px) and (min-width: 320px) {
 
 }
 </style>

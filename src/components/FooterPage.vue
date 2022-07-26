@@ -42,14 +42,25 @@ export default {
 </script>
 
 <style scoped>
-.footer {
-  background-color: black;
-  box-shadow: 2px 2px 4px gray;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 15px 15px;
-  font-family: Century Gothic, sans-serif;
-  color: white;
+@media screen and (max-width: 1440px) and (min-width: 960px) {
+  .footer {
+    background-color: black;
+    box-shadow: 2px 2px 4px gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 15px;
+    font-family: Century Gothic, sans-serif;
+    color: white;
+  }
+}
+@media screen and (max-width: 960px) and (min-width: 640px) {
+
+}
+@media screen and (max-width: 640px) and (min-width: 480px) {
+
+}
+@media screen and (max-width: 480px) and (min-width: 320px) {
+
 }
 </style>

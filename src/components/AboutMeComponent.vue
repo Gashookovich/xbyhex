@@ -63,70 +63,81 @@ export default {
 </script>
 
 <style scoped>
-.about-me {
-  display: flex;
-  flex-direction: row;
-  background-color: #f5eded;
+@media screen and (max-width: 1440px) and (min-width: 960px) {
+  .about-me {
+    display: flex;
+    flex-direction: row;
+    background-color: #f5eded;
+  }
+  .about-me__left {
+    width: 45%;
+    padding: 15px 15px;
+  }
+  img {
+    width: 100%;
+  }
+  h3 {
+    font-weight: bold;
+    padding: 10px 0;
+  }
+  .about-me__left-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 10%;
+  }
+  .about-me__left-footer-text {
+    padding: 5px 0;
+  }
+  h1 {
+    font-size: 46px;
+    font-weight: lighter;
+  }
+  .about-me__right {
+    width: 45%;
+    padding: 15px 15px;
+  }
+  .about-me__right-header {
+    padding: 7px 0;
+  }
+  .about-me__right-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 10px;
+  }
+  .about-me__right-content-text {
+    padding: 5px 15px;
+    font-size: 17px;
+  }
+  .about-me__right-content-text-pad {
+    padding-top: 30px;
+  }
+  .about-me__right-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 10px;
+  }
+  .about-me__right-footer-block {
+    text-align: left;
+  }
+  .about-me__right-footer-text {
+    padding: 5px 15px;
+    font-size: 17px;
+  }
+  .about-me__right-footer-end {
+    padding-top: 50px;
+    line-height: 1.5;
+  }
 }
-.about-me__left {
-  width: 45%;
-  padding: 15px 15px;
+@media screen and (max-width: 960px) and (min-width: 640px) {
+
 }
-img {
-  width: 100%;
+@media screen and (max-width: 640px) and (min-width: 480px) {
+
 }
-h3 {
-  font-weight: bold;
-  padding: 10px 0;
-}
-.about-me__left-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  padding-left: 10%;
-}
-.about-me__left-footer-text {
-  padding: 5px 0;
-}
-h1 {
-  font-size: 46px;
-  font-weight: lighter;
-}
-.about-me__right {
-  width: 45%;
-  padding: 15px 15px;
-}
-.about-me__right-header {
-  padding: 7px 0;
-}
-.about-me__right-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 5px 10px;
-}
-.about-me__right-content-text {
-  padding: 5px 15px;
-  font-size: 17px;
-}
-.about-me__right-content-text-pad {
-  padding-top: 30px;
-}
-.about-me__right-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 5px 10px;
-}
-.about-me__right-footer-block {
-  text-align: left;
-}
-.about-me__right-footer-text {
-  padding: 5px 15px;
-  font-size: 17px;
-}
-.about-me__right-footer-end {
-  padding-top: 50px;
-  line-height: 1.5;
+@media screen and (max-width: 480px) and (min-width: 320px) {
+
 }
 </style>

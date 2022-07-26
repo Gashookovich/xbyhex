@@ -19,28 +19,39 @@ export default {
 </script>
 
 <style scoped>
-.reception {
-  background-color: #f5eded;
-  padding: 20px 20px;
-  width: 100%;
-  font-family: Century Gothic, sans-serif;
+@media screen and (max-width: 1440px) and (min-width: 960px) {
+  .reception {
+    background-color: #f5eded;
+    padding: 20px 20px;
+    width: 100%;
+    font-family: Century Gothic, sans-serif;
+  }
+  .reception__btn {
+    width: 20%;
+    padding: 15px 7px;
+    margin: 20px 10px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  .reception__btn:hover {
+    background-color: white;
+    color: black;
+  }
+  .reception__politic {
+    cursor: pointer;
+  }
 }
-.reception__btn {
-  width: 20%;
-  padding: 15px 7px;
-  margin: 20px 10px;
-  border-radius: 30px;
-  font-size: 18px;
-  font-weight: bold;
-  background-color: black;
-  color: white;
-  cursor: pointer;
+@media screen and (max-width: 960px) and (min-width: 640px) {
+
 }
-.reception__btn:hover {
-  background-color: white;
-  color: black;
+@media screen and (max-width: 640px) and (min-width: 480px) {
+
 }
-.reception__politic {
-  cursor: pointer;
+@media screen and (max-width: 480px) and (min-width: 320px) {
+
 }
 </style>

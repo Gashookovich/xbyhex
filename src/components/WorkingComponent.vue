@@ -60,30 +60,41 @@ export default {
 </script>
 
 <style scoped>
-.working {
-  width: 100%;
-  padding: 20px 10px;
-  text-align: center;
-  background-color: #f5eded;
-  font-family: Century Gothic, sans-serif;
+@media screen and (max-width: 1440px) and (min-width: 960px) {
+  .working {
+    width: 100%;
+    padding: 20px 10px;
+    text-align: center;
+    background-color: #f5eded;
+    font-family: Century Gothic, sans-serif;
+  }
+  h1 {
+    font-size: 46px;
+    font-weight: lighter;
+  }
+  img {
+    width: 20%;
+    padding-top: 100px;
+  }
+  .working__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+  .working__content-block {
+    padding-left: 30px;
+  }
+  .working__content-text {
+    font-size: 30px;
+  }
 }
-h1 {
-  font-size: 46px;
-  font-weight: lighter;
+@media screen and (max-width: 960px) and (min-width: 640px) {
+
 }
-img {
-  width: 20%;
-  padding-top: 100px;
+@media screen and (max-width: 640px) and (min-width: 480px) {
+
 }
-.working__content {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 0;
-}
-.working__content-block {
-  padding-left: 30px;
-}
-.working__content-text {
-  font-size: 30px;
+@media screen and (max-width: 480px) and (min-width: 320px) {
+
 }
 </style>
