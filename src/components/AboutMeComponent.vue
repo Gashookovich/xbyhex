@@ -70,7 +70,6 @@ export default {
     background-color: #f5eded;
   }
   .about-me__left {
-    width: 45%;
     padding: 15px 15px;
   }
   img {
@@ -94,7 +93,6 @@ export default {
     font-weight: lighter;
   }
   .about-me__right {
-    width: 45%;
     padding: 15px 15px;
   }
   .about-me__right-header {
@@ -132,12 +130,216 @@ export default {
   }
 }
 @media screen and (max-width: 960px) and (min-width: 640px) {
-
+  .about-me {
+    display: flex;
+    flex-direction: row;
+    background-color: #f5eded;
+  }
+  .about-me__left {
+    padding: 10px 10px;
+  }
+  img {
+    width: 100%;
+  }
+  h3 {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 0;
+  }
+  .about-me__left-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 10%;
+    font-size: 13px;
+  }
+  .about-me__left-footer-text {
+    padding: 5px 0;
+  }
+  h1 {
+    font-size: 38px;
+    font-weight: lighter;
+  }
+  .about-me__right {
+    padding: 15px 15px;
+  }
+  .about-me__right-header {
+    padding: 7px 0;
+    font-size: 15px;
+  }
+  .about-me__right-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 10px;
+  }
+  .about-me__right-content-text {
+    padding: 5px 15px;
+    font-size: 13px;
+  }
+  .about-me__right-content-text-pad {
+    padding-top: 10px;
+  }
+  .about-me__right-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 5px 10px;
+  }
+  .about-me__right-footer-block {
+    text-align: left;
+  }
+  .about-me__right-footer-text {
+    padding: 5px 15px;
+    font-size: 13px;
+  }
+  .about-me__right-footer-end {
+    padding-top: 20px;
+    line-height: 1.5;
+    font-size: 13px;
+  }
 }
 @media screen and (max-width: 640px) and (min-width: 480px) {
-
+  .about-me {
+    display: flex;
+    flex-direction: row;
+    background-color: #f5eded;
+  }
+  .about-me__left {
+    padding: 10px 10px;
+  }
+  img {
+    width: 100%;
+  }
+  h3 {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px 0;
+  }
+  .about-me__left-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 10%;
+    font-size: 11px;
+  }
+  .about-me__left-footer-text {
+    padding: 5px 0;
+  }
+  h1 {
+    font-size: 32px;
+    font-weight: lighter;
+  }
+  .about-me__right {
+    padding: 15px 15px;
+  }
+  .about-me__right-header {
+    padding: 7px 0;
+    font-size: 13px;
+  }
+  .about-me__right-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 10px;
+  }
+  .about-me__right-content-text {
+    padding: 5px 10px;
+    font-size: 11px;
+  }
+  .about-me__right-content-text-pad {
+    padding-top: 10px;
+  }
+  .about-me__right-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 5px 10px;
+  }
+  .about-me__right-footer-block {
+    text-align: left;
+  }
+  .about-me__right-footer-text {
+    padding: 5px 10px;
+    font-size: 11px;
+  }
+  .about-me__right-footer-end {
+    padding-top: 10px;
+    line-height: 1.5;
+    font-size: 11px;
+  }
 }
 @media screen and (max-width: 480px) and (min-width: 320px) {
-
+  .about-me {
+    display: flex;
+    flex-direction: row;
+    background-color: #f5eded;
+  }
+  .about-me__left {
+    padding: 10px 5px;
+  }
+  img {
+    width: 100%;
+  }
+  h3 {
+    font-size: 11px;
+    font-weight: bold;
+    padding: 10px 0;
+  }
+  .about-me__left-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 10%;
+    font-size: 10px;
+  }
+  .about-me__left-footer-text {
+    padding: 2px 0;
+  }
+  h1 {
+    font-size: 22px;
+    font-weight: lighter;
+  }
+  .about-me__right {
+    padding: 5px 5px;
+  }
+  .about-me__right-header {
+    padding: 7px 0;
+    font-size: 10px;
+  }
+  .about-me__right-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 10px;
+  }
+  .about-me__right-content-text {
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+  .about-me__right-content-text-pad {
+    padding-top: 10px;
+  }
+  .about-me__right-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 5px 10px;
+  }
+  .about-me__right-footer-block {
+    text-align: left;
+  }
+  .about-me__right-footer-text {
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+  .about-me__right-footer-end {
+    padding-top: 10px;
+    line-height: 1.5;
+    font-size: 10px;
+  }
 }
 </style>

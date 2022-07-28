@@ -65,6 +65,7 @@ export default {
     justify-content: space-between;
     background-color: black;
     padding: 20px 0;
+    font-family: Century Gothic, sans-serif;
   }
   .main-page__head1 {
     width: 45%;
@@ -84,27 +85,23 @@ export default {
     margin-top: 0;
   }
   .main-page__head1-header {
-    width: 50%;
-
     font-size: 50px;
     margin-top: 15%;
   }
   .main-page__head1-body {
-    width: 100%;
     height: 17%;
     font-size: 20px;
     margin-top: 0;
   }
   .main-page__head1-footer {
-    width: 100%;
     height: 18%;
     font-size: 20px;
   }
   .btn {
     background-color: #ffffff;
     color: black;
-    width: 45%;
     padding: 15px 30px;
+    margin-top: 30px;
     border-radius: 30px;
     font-size: 18px;
     text-align: center;
@@ -116,12 +113,170 @@ export default {
   }
 }
 @media screen and (max-width: 960px) and (min-width: 640px) {
-
+  .main-page {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    padding: 15px 0;
+  }
+  .main-page__head1 {
+    width: 45%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+    margin-left: 7%;
+    line-height: 1.5;
+  }
+  .main-page__head2 {
+    width: 47%;
+  }
+  img {
+    width: 100%;
+    margin-top: 0;
+  }
+  .main-page__head1-header {
+    font-size: 44px;
+  }
+  .main-page__head1-body {
+    height: 17%;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .main-page__head1-footer {
+    height: 18%;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  .btn {
+    background-color: #ffffff;
+    color: black;
+    padding: 15px 30px;
+    margin-top: 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    top: 2%;
+  }
+  .btn:hover {
+    background-color: #7a0202;
+    color: #ffffff;
+  }
 }
 @media screen and (max-width: 640px) and (min-width: 480px) {
-
+  .main-page {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px 0;
+  }
+  .main-page__head1 {
+    width: 45%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+    margin-left: 7%;
+    line-height: 1.5;
+  }
+  .main-page__head2 {
+    width: 47%;
+  }
+  img {
+    width: 100%;
+    margin-top: 0;
+  }
+  .main-page__head1-header {
+    font-size: 33px;
+  }
+  .main-page__head1-body {
+    height: 17%;
+    font-size: 13px;
+    margin-top: 10px;
+  }
+  .main-page__head1-footer {
+    height: 18%;
+    font-size: 13px;
+    margin-top: 20px;
+  }
+  .btn {
+    background-color: #ffffff;
+    color: black;
+    padding: 15px 30px;
+    margin-top: 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    top: 2%;
+  }
+  .btn:hover {
+    background-color: #7a0202;
+    color: #ffffff;
+  }
 }
 @media screen and (max-width: 480px) and (min-width: 320px) {
-
+  .main-page {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    padding-bottom: 10px;
+  }
+  .main-page__head1 {
+    width: 45%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+    margin-left: 7%;
+  }
+  .main-page__head2 {
+    width: 47%;
+  }
+  img {
+    width: 100%;
+    margin-top: 0;
+  }
+  .main-page__head1-header {
+    font-size: 21px;
+  }
+  .main-page__head1-body {
+    height: 17%;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .main-page__head1-footer {
+    height: 18%;
+    font-size: 10px;
+    margin-top: 30px;
+  }
+  .btn {
+    background-color: #ffffff;
+    color: black;
+    padding: 7px 12px;
+    margin-top: 10px;
+    border-radius: 30px;
+    font-size: 10px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    top: 2%;
+  }
+  .btn:hover {
+    background-color: #7a0202;
+    color: #ffffff;
+  }
 }
 </style>

@@ -85,6 +85,9 @@ export default {
     padding: 0 7px;
     margin: 0 7px;
   }
+  .navbar__header {
+    font-size: 20px;
+  }
 }
 @media screen and (max-width: 480px) and (min-width: 320px) {
   .navbar {
@@ -103,11 +106,11 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 5px;
-    margin: 0 5px;
+    padding: 0 1px;
+    margin: 0 1px;
   }
   .navbar__header {
-    font-size: 12px;
+    font-size: 15px;
   }
 }
 </style>
