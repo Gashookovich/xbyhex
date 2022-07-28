@@ -9,8 +9,6 @@
       >
         <svg
             class="t-sociallinks__svg"
-            width="30px"
-            height="30px"
             viewBox="0 0 100 100"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -47,20 +45,65 @@ export default {
     background-color: black;
     box-shadow: 2px 2px 4px gray;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     padding: 15px 15px;
     font-family: Century Gothic, sans-serif;
     color: white;
   }
+  svg {
+    width: 30px;
+    height: 30px;
+  }
 }
 @media screen and (max-width: 960px) and (min-width: 640px) {
-
+  .footer {
+    background-color: black;
+    box-shadow: 2px 2px 4px gray;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px;
+    font-family: Century Gothic, sans-serif;
+    color: white;
+    font-size: 15px;
+  }
+  svg {
+    width: 28px;
+    height: 28px;
+  }
 }
 @media screen and (max-width: 640px) and (min-width: 480px) {
-
+  .footer {
+    background-color: black;
+    box-shadow: 2px 2px 4px gray;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px;
+    font-family: Century Gothic, sans-serif;
+    color: white;
+    font-size: 14px;
+  }
+  svg {
+    width: 25px;
+    height: 25px;
+  }
 }
 @media screen and (max-width: 480px) and (min-width: 320px) {
-
+  .footer {
+    background-color: black;
+    box-shadow: 2px 2px 4px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2;
+    padding: 15px 15px;
+    font-family: Century Gothic, sans-serif;
+    color: white;
+    font-size: 13px;
+  }
+  svg {
+    width: 22px;
+    height: 22px;
+    padding-top: 2px;
+  }
 }
 </style>

@@ -203,14 +203,14 @@ export default {
 @media screen and (max-width: 640px) and (min-width: 480px) {
   .about-me {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: #f5eded;
   }
   .about-me__left {
     padding: 10px 10px;
   }
   img {
-    width: 100%;
+    width: 70%;
   }
   h3 {
     font-size: 13px;
@@ -274,14 +274,14 @@ export default {
 @media screen and (max-width: 480px) and (min-width: 320px) {
   .about-me {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: #f5eded;
   }
   .about-me__left {
     padding: 10px 5px;
   }
   img {
-    width: 100%;
+    width: 80%;
   }
   h3 {
     font-size: 11px;
