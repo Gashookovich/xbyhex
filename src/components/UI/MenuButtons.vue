@@ -17,6 +17,7 @@ export default {
     color: #ffffff;
     cursor: pointer;
     font-size: 60%;
+    border: none;
   }
   .btn:hover {
     color: #7a0202;
@@ -28,6 +29,7 @@ export default {
     color: #ffffff;
     cursor: pointer;
     font-size: 50%;
+    border: none;
   }
   .btn:hover {
     color: #7a0202;
@@ -39,6 +41,7 @@ export default {
     color: #ffffff;
     cursor: pointer;
     font-size: 50%;
+    border: none;
   }
   .btn:hover {
     color: #7a0202;
@@ -51,6 +54,7 @@ export default {
     cursor: pointer;
     font-size: 10px;
     padding-left: 7px;
+    border: none;
   }
   .btn:hover {
     color: #7a0202;
