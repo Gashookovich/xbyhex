@@ -276,6 +276,7 @@ export default {
     display: flex;
     flex-direction: column;
     background-color: #f5eded;
+    font-size: 16px;
   }
   .about-me__left {
     padding: 10px 5px;
@@ -284,7 +285,7 @@ export default {
     width: 80%;
   }
   h3 {
-    font-size: 11px;
+    font-size: 18px;
     font-weight: bold;
     padding: 10px 0;
   }
@@ -293,13 +294,12 @@ export default {
     flex-direction: column;
     align-items: start;
     padding-left: 10%;
-    font-size: 10px;
   }
   .about-me__left-footer-text {
     padding: 2px 0;
   }
   h1 {
-    font-size: 22px;
+    font-size: 35px;
     font-weight: lighter;
   }
   .about-me__right {
@@ -307,7 +307,6 @@ export default {
   }
   .about-me__right-header {
     padding: 7px 0;
-    font-size: 10px;
   }
   .about-me__right-content {
     display: flex;
@@ -317,7 +316,6 @@ export default {
   }
   .about-me__right-content-text {
     padding: 5px 10px;
-    font-size: 10px;
   }
   .about-me__right-content-text-pad {
     padding-top: 10px;
@@ -334,12 +332,10 @@ export default {
   }
   .about-me__right-footer-text {
     padding: 5px 10px;
-    font-size: 10px;
   }
   .about-me__right-footer-end {
     padding-top: 10px;
     line-height: 1.5;
-    font-size: 10px;
   }
 }
 </style>

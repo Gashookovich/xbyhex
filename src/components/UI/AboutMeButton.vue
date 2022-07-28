@@ -84,12 +84,13 @@ export default {
 @media screen and (max-width: 480px) and (min-width: 320px) {
   .about-me__btn {
     height: 35px;
-    margin: 20px 0;
+    margin: 30px 0;
+    padding: 5px 5px;
     border-radius: 30px;
     background-color: black;
     color: #ffffff;
     cursor: pointer;
-    font-size: 10px;
+    font-size: 15px;
   }
   .about-me__btn:hover {
     background-color: #ffffff;

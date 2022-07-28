@@ -98,8 +98,8 @@ export default {
     border-bottom: 1px solid black;
   }
   .tagline__text {
-    width: 60%;
-    font-size: 13px;
+    width: 90%;
+    font-size: 18px;
     font-weight: lighter;
     padding-bottom: 20px;
     padding-top: 15px;

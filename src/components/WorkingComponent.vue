@@ -160,7 +160,7 @@ export default {
     font-weight: lighter;
   }
   img {
-    width: 20%;
+    width: 40%;
     padding-top: 20px;
   }
   .working__content {
@@ -174,7 +174,7 @@ export default {
     align-items: center;
   }
   .working__content-text {
-    font-size: 13px;
+    font-size: 20px;
   }
 }
 </style>

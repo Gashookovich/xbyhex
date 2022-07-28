@@ -52,7 +52,7 @@ export default {
     background-color: black;
     color: #ffffff;
     cursor: pointer;
-    font-size: 10px;
+    font-size: 13px;
     padding-left: 7px;
     border: none;
   }

@@ -110,7 +110,7 @@ export default {
     margin: 0 1px;
   }
   .navbar__header {
-    font-size: 15px;
+    font-size: 20px;
   }
 }
 </style>
