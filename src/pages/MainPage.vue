@@ -258,6 +258,7 @@ export default {
     padding-top: 15px;
   }
   .main-page__head1-footer {
+    width: 200%;
     font-size: 15px;
     padding-top: 15px;
   }
